@@ -1,0 +1,97 @@
+/* General */
+
+@import url('https://fonts.googleapis.com/css2?family=Athiti:wght@200;300;400;500;600;700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Athiti', sans-serif;
+	font-size: 20px;
+    background-color: white;
+    font-weight: 500;
+}
+a {
+	color: #ff3864;
+}
+
+header {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    float: none;
+    text-align: center;
+    margin: 30px 0px 10px 0px;
+}
+
+footer {
+    float: none;
+    text-align: center;
+    margin: 30px 0px;
+}
+
+/* Plus */
+
+.plus {
+    background-color: #0db7b7;
+    color: white;
+    padding: 20px;
+    border: none;
+    border-radius: 30px 30px 0px 0px;
+    margin-top: 20px;
+    width: 30%;
+    height: 200px;
+    text-align: center;
+    margin-left: 35%;
+    font-weight: 700;
+}
+.plus:hover {
+    background-color: #098585;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+/* Counter */
+
+.counter {
+    background-color: #333333;
+    color: white;
+    padding: 20px;
+    padding-top: 80px;
+    border: none;
+    width: 30%;
+    height: 200px;
+    text-align: center;
+    margin-left: 35%;
+    font-weight: 700;
+}
+
+/* Minus */
+
+.minus {
+    background-color: #ff3864;
+    color: white;
+    padding: 20px;
+    border: none;
+    border-radius: 0px 0px 30px 30px;
+    width: 30%;
+    height: 200px;
+    text-align: center;
+    margin-left: 35%;
+    font-weight: 700;
+}
+.minus:hover {
+    background-color: #CC2D4F;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 900px) and (min-width: 100px) {
+
+.plus, .counter, .minus {
+    width: 80%;
+    margin-left: 10%;
+    height: 150px;
+}
+
+}
