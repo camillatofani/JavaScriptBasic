@@ -17,7 +17,6 @@ minusButton = document.createElement('button');
 minusButton.id = 'minus';
 minusButton.innerHTML = 'DOWN -'
 minusButton.classList.add('minus');
-/* document.body.insertBefore(minusButton,document.body.childNodes[2]); */
 document.body.appendChild(minusButton);
 
 /* Initial Value */
